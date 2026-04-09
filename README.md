@@ -18,7 +18,6 @@ Multi-agent orchestration routing inference across local and cloud LLMs. Cut per
 
 ### Unity Video System — autonomous YouTube pipeline
 End-to-end content generation: script → WAN 2.1 / LTX-Video synthesis on RTX 4070 → audio mix → upload → analytics feedback. Dual Thompson Sampling bandits optimize model routing and content style from Qwen auto-eval scores. Multi-seed compositing exploits GPU thermal cooldown for zero-cost parallelism.
-→ [Repo](https://github.com/aaronishere2025-bot/unity-video-system)
 
 ### Fraud Files — automated dossier generation
 Attorney-ready PPP fraud dossiers at **~1/10 the cost** of Westlaw / LexisNexis. Three-layer citation verification with independent damages recalculation and freshness checks. Idempotent data pipeline with universal record design.
@@ -26,11 +25,10 @@ Attorney-ready PPP fraud dossiers at **~1/10 the cost** of Westlaw / LexisNexis.
 
 ### Outreach Engine — multi-tenant email infrastructure
 Shared email service consumed by every Stackeroo venture. IMAP reply classification, Jinja2 templates, domain warmup scheduling, and Thompson Sampling for send-time optimization. **156+ passing tests**.
-→ [Repo](https://github.com/aaronishere2025-bot/outreach-engine)
 
-### Stackeroo — shared infrastructure monorepo
+### Stackeroo — shared infrastructure ecosystem
 The Docker Compose scaffold that runs every Stackeroo product. Shared PostgreSQL, Redis, scraping, outreach, and agent services. `add-project.sh` bootstraps new ventures with full infrastructure inheritance in a single command.
-→ [stackeroo.app](https://stackeroo.app) · [Repo](https://github.com/aaronishere2025-bot/stackeroo)
+→ [stackeroo.app](https://stackeroo.app)
 
 ### MaxClaims — roofing insurance SaaS
 Full-stack client platform for DFW roofing contractors to automate insurance supplement workflows. Online intake, Stripe payments, client portal. Production on Hetzner VPS.
